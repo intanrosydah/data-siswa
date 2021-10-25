@@ -33,11 +33,7 @@ class pendataanController extends Controller
         // return $listData;
         return view ('list',compact('listData'));
     }
-    // public function masukData(Request $request){
-    //     $masukData = Siswa::all();
-    //     // return $masukData;
-    //     return view ('masuk',compact('masukData'));
-    // }
+    
     public function editData($id){
         // $editData = Siswa::all();
         // return $editData;
